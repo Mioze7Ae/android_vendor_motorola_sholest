@@ -1,4 +1,4 @@
-location_providers_allowed=
+location_providers_allowed=gps
 wifi_on=0
 data_roaming=0
 bluetooth_on=0

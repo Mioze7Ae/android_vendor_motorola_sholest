@@ -19,6 +19,7 @@
     LogFacMask="LOG_GLLAPI | LOG_NMEA | LOG_RAWDATA | LOG_INTEGR | LOG_USR1" 
     FrqPlan="FRQ_PLAN_26MHZ_2PPM_1_625MHZ_300PPB"     
     RfType="GL_RF_BARRACUDA_EXT_LNA" 
+    DynMode="DYN_PEDESTRIAN"
 />
     
 <!-- Periodic Position Fix using default settings -->
