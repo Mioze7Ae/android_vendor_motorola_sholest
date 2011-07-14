@@ -198,17 +198,17 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/lib/libMynetNativeJni.so:/system/lib/libMynetNativeJni.so \
     vendor/motorola/sholest/proprietary/lib/libWifiAPHardware.so:/system/lib/libWifiAPHardware.so \
     vendor/motorola/sholest/proprietary/lib/libWifiAPNativeJni.so:/system/lib/libWifiAPNativeJni.so
-#    vendor/motorola/sholest/proprietary/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
+##    vendor/motorola/sholest/proprietary/lib/libOMX.TI.AAC.decode.so:/system/lib/libOMX.TI.AAC.decode.so \
 #    vendor/motorola/sholest/proprietary/lib/libOMX.TI.AAC.encode.so:/system/lib/libOMX.TI.AAC.encode.so \
-#    vendor/motorola/sholest/proprietary/lib/libOMX.TI.AMR.decode.so:/system/lib/libOMX.TI.AMR.decode.so \
+##    vendor/motorola/sholest/proprietary/lib/libOMX.TI.AMR.decode.so:/system/lib/libOMX.TI.AMR.decode.so \
 #    vendor/motorola/sholest/proprietary/lib/libOMX.TI.AMR.encode.so:/system/lib/libOMX.TI.AMR.encode.so \
 #    vendor/motorola/sholest/proprietary/lib/libOMX.TI.JPEG.Encoder.so:/system/lib/libOMX.TI.JPEG.Encoder.so \
-#    vendor/motorola/sholest/proprietary/lib/libOMX.TI.MP3.decode.so:/system/lib/libOMX.TI.MP3.decode.so \
+##    vendor/motorola/sholest/proprietary/lib/libOMX.TI.MP3.decode.so:/system/lib/libOMX.TI.MP3.decode.so \
 #    vendor/motorola/sholest/proprietary/lib/libOMX.TI.Video.Decoder.so:/system/lib/libOMX.TI.Video.Decoder.so \
 #    vendor/motorola/sholest/proprietary/lib/libOMX.TI.Video.encoder.so:/system/lib/libOMX.TI.Video.encoder.so \
-#    vendor/motorola/sholest/proprietary/lib/libOMX.TI.WBAMR.decode.so:/system/lib/libOMX.TI.WBAMR.decode.so \
+##    vendor/motorola/sholest/proprietary/lib/libOMX.TI.WBAMR.decode.so:/system/lib/libOMX.TI.WBAMR.decode.so \
 #    vendor/motorola/sholest/proprietary/lib/libOMX.TI.WBAMR.encode.so:/system/lib/libOMX.TI.WBAMR.encode.so \
-#    vendor/motorola/sholest/proprietary/lib/libOMX.TI.WMA.decode.so:/system/lib/libOMX.TI.WMA.decode.so \
+##    vendor/motorola/sholest/proprietary/lib/libOMX.TI.WMA.decode.so:/system/lib/libOMX.TI.WMA.decode.so \
 #    vendor/motorola/sholest/proprietary/lib/libOMX_Core.so:/system/lib/libOMX_Core.so \
 #    vendor/motorola/sholest/proprietary/lib/libVendor_ti_omx.so:/system/lib/libVendor_ti_omx.so \
 #    vendor/motorola/sholest/proprietary/lib/libVendor_ti_omx_config_parser.so:/system/lib/libVendor_ti_omx_config_parser.so \
