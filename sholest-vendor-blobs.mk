@@ -27,8 +27,7 @@ PRODUCT_COPY_FILES := \
 # All the blobs necessary 
 PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/framework/mot-framework-res.apk:/system/framework/mot-framework-res.apk \
-    vendor/motorola/sholest/proprietary/etc/cameraCalFileDef5M.bin:/system/etc/cameraCalFileDef5M.bin \
-    vendor/motorola/sholest/proprietary/etc/cameraCalFileDef8M.bin:/system/etc/cameraCalFileDef8M.bin \
+    vendor/motorola/sholest/proprietary/etc/cameraCalFileDef.bin:/system/etc/cameraCalFileDef.bin \
     vendor/motorola/sholest/proprietary/etc/01_Vendor_ti_omx.cfg:/system/etc/01_Vendor_ti_omx.cfg
 
 PRODUCT_COPY_FILES += \
@@ -36,7 +35,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/etc/gpsconfig.xml:/system/etc/gpsconfig.xml \
     vendor/motorola/sholest/proprietary/etc/excluded-input-devices.xml:/system/etc/excluded-input-devices.xml \
     vendor/motorola/sholest/proprietary/etc/permissions/motorola_platform.xml:/system/etc/permissions/motorola_platform.xml \
-    vendor/motorola/sholest/proprietary/etc/permissions/required_hardware.xml:/system/etc/permissions/required_hardware.xml \
     vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.android.providers.settings/settings.mkitso:/system/etc/motorola/com.motorola.android.providers.settings/settings.mkitso \
     vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.android.dm.service/databases/dmAccounts.xml:/system/etc/motorola/com.motorola.android.dm.service/databases/dmAccounts.xml \
     vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.widget.weather.accuweather/weather_setting.mkitso:/system/etc/motorola/com.motorola.widget.weather.accuweather/weather_setting.mkitso \
@@ -45,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/etc/motorola/bp_nvm_default/File_Audio1_AMR_WB:/system/etc/motorola/bp_nvm_default/File_Audio1_AMR_WB \
     vendor/motorola/sholest/proprietary/etc/motorola/bp_nvm_default/File_GSM:/system/etc/motorola/bp_nvm_default/File_GSM \
     vendor/motorola/sholest/proprietary/etc/motorola/bp_nvm_default/File_Audio7:/system/etc/motorola/bp_nvm_default/File_Audio7 \
-    vendor/motorola/sholest/proprietary/etc/motorola/bp_nvm_default/generic_pds_init:/system/etc/motorola/bp_nvm_default/generic_pds_init \
     vendor/motorola/sholest/proprietary/etc/motorola/bp_nvm_default/File_Audio3:/system/etc/motorola/bp_nvm_default/File_Audio3 \
     vendor/motorola/sholest/proprietary/etc/motorola/bp_nvm_default/File_Audio3_AMR_WB:/system/etc/motorola/bp_nvm_default/File_Audio3_AMR_WB \
     vendor/motorola/sholest/proprietary/etc/motorola/bp_nvm_default/File_Seem_Flex_Tables:/system/etc/motorola/bp_nvm_default/File_Seem_Flex_Tables \
@@ -72,7 +69,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.mtlr/notes.mkitso:/system/etc/motorola/com.motorola.mtlr/notes.mkitso \
     vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.providers.settings/gservices.mkitso:/system/etc/motorola/com.motorola.providers.settings/gservices.mkitso \
     vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.android.fota/flex.mkitso:/system/etc/motorola/com.motorola.android.fota/flex.mkitso \
-    vendor/motorola/sholest/proprietary/etc/motorola/com.android.browser/operatorhomepage.mkitso:/system/etc/motorola/com.android.browser/operatorhomepage.mkitso \
     vendor/motorola/sholest/proprietary/etc/motorola/com.android.browser/databases/bookmarks.xml:/system/etc/motorola/com.android.browser/databases/bookmarks.xml \
     vendor/motorola/sholest/proprietary/etc/motorola/com.android.providers.settings/system.mkitso:/system/etc/motorola/com.android.providers.settings/system.mkitso \
     vendor/motorola/sholest/proprietary/etc/motorola/com.android.providers.settings/secure.mkitso:/system/etc/motorola/com.android.providers.settings/secure.mkitso \
@@ -89,6 +85,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/usr/keylayout/cpcap-key.kl:/system/usr/keylayout/cpcap-key.kl \
     vendor/motorola/sholest/proprietary/usr/keylayout/sholesp2a-keypad.kl:/system/usr/keylayout/sholesp2a-keypad.kl \
     vendor/motorola/sholest/proprietary/usr/keylayout/sholesp1b-keypad.kl:/system/usr/keylayout/sholesp1b-keypad.kl \
+    vendor/motorola/sholest/proprietary/usr/keylayout/AVRCP.kl:/system/usr/keylayout/AVRCP.kl \
+    vendor/motorola/sholest/proprietary/usr/keylayout/qtouch-touchscreen.kl:/system/usr/keylayout/qtouch-touchscreen.kl \
+    vendor/motorola/sholest/proprietary/usr/keylayout/qwerty.kl:/system/usr/keylayout/qwerty.kl \
+    vendor/motorola/sholest/proprietary/usr/keylayout/sholes-keypad.kl:/system/usr/keylayout/sholes-keypad.kl \
+    vendor/motorola/sholest/proprietary/usr/keylayout/sholestabletp1cu-keypad.kl:/system/usr/keylayout/sholestabletp1cu-keypad.kl \
+    vendor/motorola/sholest/proprietary/usr/keylayout/sholestabletp1skt-keypad.kl:/system/usr/keylayout/sholestabletp1skt-keypad.kl \
+    vendor/motorola/sholest/proprietary/usr/keylayout/sholestabletp2cu-keypad.kl:/system/usr/keylayout/sholestabletp2cu-keypad.kl \
+    vendor/motorola/sholest/proprietary/usr/keylayout/sholestabletp2skt-keypad.kl:/system/usr/keylayout/sholestabletp2skt-keypad.kl \
+    vendor/motorola/sholest/proprietary/usr/keylayout/sholestabletp3cu-keypad.kl:/system/usr/keylayout/sholestabletp3cu-keypad.kl \
+    vendor/motorola/sholest/proprietary/usr/keylayout/sholestabletp3skt-keypad.kl:/system/usr/keylayout/sholestabletp3skt-keypad.kl \
     vendor/motorola/sholest/proprietary/bin/panic_daemon:/system/bin/panic_daemon \
     vendor/motorola/sholest/proprietary/bin/nvm_daemon:/system/bin/nvm_daemon \
     vendor/motorola/sholest/proprietary/bin/brcm_guci_drv:/system/bin/brcm_guci_drv \
@@ -96,12 +102,20 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/bin/bplogd_daemon:/system/bin/bplogd_daemon \
     vendor/motorola/sholest/proprietary/bin/clean_dex.sh:/system/bin/clean_dex.sh \
     vendor/motorola/sholest/proprietary/usr/keychars/sholesp0b-keypad.kcm.bin:/system/usr/keychars/sholesp0b-keypad.kcm.bin \
-    vendor/motorola/sholest/proprietary/usr/keychars/sholesp2a-keypad-arabic.kcm.bin:/system/usr/keychars/sholesp2a-keypad-arabic.kcm.bin \
-    vendor/motorola/sholest/proprietary/usr/keychars/sholesp2a-keypad-hebrew.kcm.bin:/system/usr/keychars/sholesp2a-keypad-hebrew.kcm.bin \
-    vendor/motorola/sholest/proprietary/usr/keychars/sholesp2a-keypad-russian.kcm.bin:/system/usr/keychars/sholesp2a-keypad-russian.kcm.bin \
     vendor/motorola/sholest/proprietary/usr/keychars/sholesp1b-keypad.kcm.bin:/system/usr/keychars/sholesp1b-keypad.kcm.bin \
     vendor/motorola/sholest/proprietary/usr/keychars/sholesp1a-keypad.kcm.bin:/system/usr/keychars/sholesp1a-keypad.kcm.bin \
     vendor/motorola/sholest/proprietary/usr/keychars/icestorms0a-keypad.kcm.bin:/system/usr/keychars/icestorms0a-keypad.kcm.bin \
+    vendor/motorola/sholest/proprietary/usr/keychars/qtouch-touchscreen.kl:/system/usr/keychars/qtouch-touchscreen.kl \
+    vendor/motorola/sholest/proprietary/usr/keychars/qwerty2.kcm.bin:/system/usr/keychars/qwerty2.kcm.bin \
+    vendor/motorola/sholest/proprietary/usr/keychars/qwerty.kcm.bin:/system/usr/keychars/qwerty.kcm.bin \
+    vendor/motorola/sholest/proprietary/usr/keychars/sholes-keypad.kcm.bin:/system/usr/keychars/sholes-keypad.kcm.bin \
+    vendor/motorola/sholest/proprietary/usr/keychars/sholesp2a-keypad.kcm.bin:/system/usr/keychars/sholesp2a-keypad.kcm.bin \
+    vendor/motorola/sholest/proprietary/usr/keychars/sholestabletp1cu-keypad.kcm.bin:/system/usr/keychars/sholestabletp1cu-keypad.kcm.bin \
+    vendor/motorola/sholest/proprietary/usr/keychars/sholestabletp1skt-keypad.kcm.bin:/system/usr/keychars/sholestabletp1skt-keypad.kcm.bin \
+    vendor/motorola/sholest/proprietary/usr/keychars/sholestabletp2cu-keypad.kcm.bin:/system/usr/keychars/sholestabletp2cu-keypad.kcm.bin \
+    vendor/motorola/sholest/proprietary/usr/keychars/sholestabletp2skt-keypad.kcm.bin:/system/usr/keychars/sholestabletp2skt-keypad.kcm.bin \
+    vendor/motorola/sholest/proprietary/usr/keychars/sholestabletp3cu-keypad.kcm.bin:/system/usr/keychars/sholestabletp3cu-keypad.kcm.bin \
+    vendor/motorola/sholest/proprietary/usr/keychars/sholestabletp3skt-keypad.kcm.bin:/system/usr/keychars/sholestabletp3skt-keypad.kcm.bin \
     vendor/motorola/sholest/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
     vendor/motorola/sholest/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/sholest/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
@@ -157,13 +171,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/lib/libmsl_interface.so:/system/lib/libmsl_interface.so \
     vendor/motorola/sholest/proprietary/lib/libmotodbgutils.so:/system/lib/libmotodbgutils.so \
     vendor/motorola/sholest/proprietary/lib/modules/netmux.ko:/system/lib/modules/netmux.ko \
-    vendor/motorola/sholest/proprietary/lib/modules/cls_u32.ko:/system/lib/modules/cls_u32.ko \
     vendor/motorola/sholest/proprietary/lib/modules/output.ko:/system/lib/modules/output.ko \
-    vendor/motorola/sholest/proprietary/lib/modules/sch_htb.ko:/system/lib/modules/sch_htb.ko \
     vendor/motorola/sholest/proprietary/lib/modules/pcbc.ko:/system/lib/modules/pcbc.ko \
     vendor/motorola/sholest/proprietary/lib/modules/tiap_drv.ko:/system/lib/modules/tiap_drv.ko \
     vendor/motorola/sholest/proprietary/lib/modules/wl127x-test.ko:/system/lib/modules/wl127x-test.ko \
-    vendor/motorola/sholest/proprietary/lib/modules/wl127x_test.ko:/system/lib/modules/wl127x_test.ko \
     vendor/motorola/sholest/proprietary/lib/modules/sec.ko:/system/lib/modules/sec.ko \
     vendor/motorola/sholest/proprietary/lib/modules/modem_pm_driver.ko:/system/lib/modules/modem_pm_driver.ko \
     vendor/motorola/sholest/proprietary/lib/modules/tiwlan_drv.ko:/system/lib/modules/tiwlan_drv.ko \
@@ -175,12 +186,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/lib/liboemcamera.so:/system/lib/liboemcamera.so \
     vendor/motorola/sholest/proprietary/lib/libtpa_core.so:/system/lib/libtpa_core.so \
     vendor/motorola/sholest/proprietary/lib/libril-moto-umts-1.so:/system/lib/libril-moto-umts-1.so \
-    vendor/motorola/sholest/proprietary/lib/libspeech.so:/system/lib/libspeech.so \
     vendor/motorola/sholest/proprietary/lib/libpvasfcommon.so:/system/lib/libpvasfcommon.so \
     vendor/motorola/sholest/proprietary/lib/libpvasflocalpb.so:/system/lib/libpvasflocalpb.so \
     vendor/motorola/sholest/proprietary/lib/libpvasflocalpbreg.so:/system/lib/libpvasflocalpbreg.so \
-    vendor/motorola/sholest/proprietary/lib/libopencore_asflocal.so:/system/lib/libopencore_asflocal.so \
-    vendor/motorola/sholest/proprietary/lib/libopencore_asflocalreg.so:/system/lib/libopencore_asflocalreg.so \
+    vendor/motorola/sholest/proprietary/lib/libopencore_motlocal.so:/system/lib/libopencore_motlocal.so \
+    vendor/motorola/sholest/proprietary/lib/libopencore_motlocal.so:/system/lib/libopencore_motlocal.so \
+    vendor/motorola/sholest/proprietary/lib/libopencore_motsktdrm.so:/system/lib/libopencore_motsktdrm.so \
     vendor/motorola/sholest/proprietary/lib/libomx_wmadec_sharedlibrary.so:/system/lib/libomx_wmadec_sharedlibrary.so \
     vendor/motorola/sholest/proprietary/lib/libomx_wmvdec_sharedlibrary.so:/system/lib/libomx_wmvdec_sharedlibrary.so \
     vendor/motorola/sholest/proprietary/lib/libhostapd_client.so:/system/lib/libhostapd_client.so \
@@ -206,8 +217,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/lib/dsp/wmadec_sn.dll64P:/system/lib/dsp/wmadec_sn.dll64P \
     vendor/motorola/sholest/proprietary/lib/dsp/wmv9dec_sn.dll64P:/system/lib/dsp/wmv9dec_sn.dll64P \
-    vendor/motorola/sholest/proprietary/lib/dsp/wbamrdec_sn.dll64P:/system/lib/dsp/wbamrdec_sn.dll64P \
-    vendor/motorola/sholest/proprietary/lib/dsp/wbamrenc_sn.dll64P:/system/lib/dsp/wbamrenc_sn.dll64P \
     vendor/motorola/sholest/proprietary/lib/dsp/conversions.dll64P:/system/lib/dsp/conversions.dll64P \
     vendor/motorola/sholest/proprietary/lib/dsp/jpegenc_sn.dll64P:/system/lib/dsp/jpegenc_sn.dll64P \
     vendor/motorola/sholest/proprietary/lib/dsp/ringio.dll64P:/system/lib/dsp/ringio.dll64P \
@@ -216,13 +225,13 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/lib/dsp/usn.dll64P:/system/lib/dsp/usn.dll64P \
     vendor/motorola/sholest/proprietary/lib/dsp/h264venc_sn.dll64P:/system/lib/dsp/h264venc_sn.dll64P \
     vendor/motorola/sholest/proprietary/lib/dsp/postprocessor_dualout.dll64P:/system/lib/dsp/postprocessor_dualout.dll64P \
-    vendor/motorola/sholest/proprietary/lib/dsp/nbamrdec_sn.dll64P:/system/lib/dsp/nbamrdec_sn.dll64P \
     vendor/motorola/sholest/proprietary/lib/dsp/nbamrenc_sn.dll64P:/system/lib/dsp/nbamrenc_sn.dll64P \
     vendor/motorola/sholest/proprietary/lib/dsp/mp4vdec_sn.dll64P:/system/lib/dsp/mp4vdec_sn.dll64P \
     vendor/motorola/sholest/proprietary/lib/dsp/m4venc_sn.dll64P:/system/lib/dsp/m4venc_sn.dll64P \
-    vendor/motorola/sholest/proprietary/lib/dsp/mp3dec_sn.dll64P:/system/lib/dsp/mp3dec_sn.dll64P \
-    vendor/motorola/sholest/proprietary/lib/dsp/mpeg4aacdec_sn.dll64P:/system/lib/dsp/mpeg4aacdec_sn.dll64P \
     vendor/motorola/sholest/proprietary/lib/dsp/mpeg4aacenc_sn.dll64P:/system/lib/dsp/mpeg4aacenc_sn.dll64P \
+    vendor/motorola/sholest/proprietary/lib/dsp/h264ingdec_sn.dll64P:/system/lib/dsp/h264ingdec_sn.dll64P \
+    vendor/motorola/sholest/proprietary/lib/dsp/mpeg4ingdec_sn.dll64P:/system/lib/dsp/mpeg4ingdec_sn.dll64P \
+    vendor/motorola/sholest/proprietary/lib/dsp/mpeg4ingenc_sn.dll64P:/system/lib/dsp/mpeg4ingenc_sn.dll64P \
     vendor/motorola/sholest/proprietary/lib/libaudiopolicy.so:/system/lib/libaudiopolicy.so \
     vendor/motorola/sholest/proprietary/tts/lang_pico/en-US_lh0_sg.bin:/system/tts/lang_pico/en-US_lh0_sg.bin \
     vendor/motorola/sholest/proprietary/tts/lang_pico/fr-FR_nk0_sg.bin:/system/tts/lang_pico/fr-FR_nk0_sg.bin \
