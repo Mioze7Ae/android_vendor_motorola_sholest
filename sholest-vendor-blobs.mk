@@ -110,6 +110,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/bin/usbd:/system/bin/usbd \
     vendor/motorola/sholest/proprietary/bin/catcommands:/system/bin/catcommands \
     vendor/motorola/sholest/proprietary/bin/Hostapd:/system/bin/Hostapd \
+    vendor/motorola/sholest/proprietary/bin/wlan_cu:/system/bin/wlan_cu \
+    vendor/motorola/sholest/proprietary/bin/wlan_loader:/system/bin/wlan_loader \
     vendor/motorola/sholest/proprietary/bin/charge_only_mode:/system/bin/charge_only_mode
 
 PRODUCT_COPY_FILES += \
