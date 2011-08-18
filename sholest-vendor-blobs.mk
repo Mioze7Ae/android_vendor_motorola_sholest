@@ -275,6 +275,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
     vendor/motorola/sholest/proprietary/app/PersonalPortal.apk:/system/app/PersonalPortal.apk \
     vendor/motorola/sholest/proprietary/app/QuickOffice.apk:/system/app/QuickOffice.apk \
+    vendor/motorola/sholest/proprietary/app/Usb.apk:/system/app/Usb.apk \
     vendor/motorola/sholest/proprietary/app/Mynet.apk:/system/app/Mynet.apk
 
 PRODUCT_COPY_FILES += \
