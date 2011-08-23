@@ -257,19 +257,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/tts/lang_pico/it-IT_ta.bin:/system/tts/lang_pico/it-IT_ta.bin
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.android.providers.settings/settings.mkitso:/system/etc/motorola/com.motorola.android.providers.settings/settings.mkitso \
-    vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.android.dm.service/databases/dmAccounts.xml:/system/etc/motorola/com.motorola.android.dm.service/databases/dmAccounts.xml \
-    vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.widget.weather.accuweather/weather_setting.mkitso:/system/etc/motorola/com.motorola.widget.weather.accuweather/weather_setting.mkitso \
-    vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.providers.messaging/mms_config.mkitso:/system/etc/motorola/com.motorola.providers.messaging/mms_config.mkitso \
-    vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.dock/dock_setting.mkitso:/system/etc/motorola/com.motorola.dock/dock_setting.mkitso \
-    vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.mtlr/notes.mkitso:/system/etc/motorola/com.motorola.mtlr/notes.mkitso \
-    vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.providers.settings/gservices.mkitso:/system/etc/motorola/com.motorola.providers.settings/gservices.mkitso \
-    vendor/motorola/sholest/proprietary/etc/motorola/com.motorola.android.fota/flex.mkitso:/system/etc/motorola/com.motorola.android.fota/flex.mkitso \
-    vendor/motorola/sholest/proprietary/etc/motorola/com.android.browser/databases/bookmarks.xml:/system/etc/motorola/com.android.browser/databases/bookmarks.xml \
-    vendor/motorola/sholest/proprietary/etc/motorola/com.android.providers.settings/system.mkitso:/system/etc/motorola/com.android.providers.settings/system.mkitso \
-    vendor/motorola/sholest/proprietary/etc/motorola/com.android.providers.settings/secure.mkitso:/system/etc/motorola/com.android.providers.settings/secure.mkitso
-
-PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/app/PhoneConfig.apk:/system/app/PhoneConfig.apk \
     vendor/motorola/sholest/proprietary/app/ProgramMenu.apk:/system/app/ProgramMenu.apk \
     vendor/motorola/sholest/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
