@@ -210,18 +210,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/lib/modules/hid-dummy.ko:/system/lib/modules/hid-dummy.ko \
     vendor/motorola/sholest/proprietary/lib/modules/netmux_linkdriver.ko:/system/lib/modules/netmux_linkdriver.ko
 
-#PRODUCT_COPY_FILES += \
-#    vendor/motorola/sholest/proprietary/lib/libOMX.TI.AMR.encode.so:/system/lib/libOMX.TI.AMR.encode.so \
-#    vendor/motorola/sholest/proprietary/lib/libOMX.TI.WBAMR.encode.so:/system/lib/libOMX.TI.WBAMR.encode.so \
-#    vendor/motorola/sholest/proprietary/lib/libOMX.TI.AAC.encode.so:/system/lib/libOMX.TI.AAC.encode.so \
-#    vendor/motorola/sholest/proprietary/lib/libOMX.TI.JPEG.Encoder.so:/system/lib/libOMX.TI.JPEG.Encoder.so \
-#    vendor/motorola/sholest/proprietary/lib/libOMX.TI.Video.Decoder.so:/system/lib/libOMX.TI.Video.Decoder.so \
-#    vendor/motorola/sholest/proprietary/lib/libOMX.TI.Video.encoder.so:/system/lib/libOMX.TI.Video.encoder.so \
-#    vendor/motorola/sholest/proprietary/lib/libOMX_Core.so:/system/lib/libOMX_Core.so \
-#    vendor/motorola/sholest/proprietary/lib/libLCML.so:/system/lib/libLCML.so \
-#    vendor/motorola/sholest/proprietary/lib/libVendor_ti_omx.so:/system/lib/libVendor_ti_omx.so \
-#    vendor/motorola/sholest/proprietary/lib/libVendor_ti_omx_config_parser.so:/system/lib/libVendor_ti_omx_config_parser.so
-
 PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/lib/dsp/wmadec_sn.dll64P:/system/lib/dsp/wmadec_sn.dll64P \
     vendor/motorola/sholest/proprietary/lib/dsp/wmv9dec_sn.dll64P:/system/lib/dsp/wmv9dec_sn.dll64P \
@@ -262,9 +250,29 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/app/ProgramMenuSystem.apk:/system/app/ProgramMenuSystem.apk \
     vendor/motorola/sholest/proprietary/app/PersonalPortal.apk:/system/app/PersonalPortal.apk \
     vendor/motorola/sholest/proprietary/app/QuickOffice.apk:/system/app/QuickOffice.apk \
-    vendor/motorola/sholest/proprietary/app/Usb.apk:/system/app/Usb.apk \
     vendor/motorola/sholest/proprietary/app/Mynet.apk:/system/app/Mynet.apk
 
+ifeq ($(SHOLEST_KOREAN_IME),true)
 PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/app/KoreanIME.apk:/system/app/KoreanIME.apk \
     vendor/motorola/sholest/proprietary/lib/libjni_koreanime.so:/system/lib/libjni_koreanime.so
+endif
+
+ifneq ($(SHOLEST_BUILD_OMX),true)
+PRODUCT_COPY_FILES += \
+    vendor/motorola/sholest/proprietary/lib/libOMX.TI.AMR.encode.so:/system/lib/libOMX.TI.AMR.encode.so \
+    vendor/motorola/sholest/proprietary/lib/libOMX.TI.WBAMR.encode.so:/system/lib/libOMX.TI.WBAMR.encode.so \
+    vendor/motorola/sholest/proprietary/lib/libOMX.TI.AAC.encode.so:/system/lib/libOMX.TI.AAC.encode.so \
+    vendor/motorola/sholest/proprietary/lib/libOMX.TI.JPEG.Encoder.so:/system/lib/libOMX.TI.JPEG.Encoder.so \
+    vendor/motorola/sholest/proprietary/lib/libOMX.TI.Video.Decoder.so:/system/lib/libOMX.TI.Video.Decoder.so \
+    vendor/motorola/sholest/proprietary/lib/libOMX.TI.Video.encoder.so:/system/lib/libOMX.TI.Video.encoder.so \
+    vendor/motorola/sholest/proprietary/lib/libOMX_Core.so:/system/lib/libOMX_Core.so \
+    vendor/motorola/sholest/proprietary/lib/libLCML.so:/system/lib/libLCML.so \
+    vendor/motorola/sholest/proprietary/lib/libVendor_ti_omx.so:/system/lib/libVendor_ti_omx.so \
+    vendor/motorola/sholest/proprietary/lib/libVendor_ti_omx_config_parser.so:/system/lib/libVendor_ti_omx_config_parser.so
+endif
+
+ifneq ($(SHOLEST_BUILD_USB_APK),true)
+PRODUCT_COPY_FILES += \
+    vendor/motorola/sholest/proprietary/app/Usb.apk:/system/app/Usb.apk
+endif
