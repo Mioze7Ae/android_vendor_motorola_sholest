@@ -252,6 +252,15 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/app/QuickOffice.apk:/system/app/QuickOffice.apk \
     vendor/motorola/sholest/proprietary/app/Mynet.apk:/system/app/Mynet.apk
 
+PRODUCT_COPY_FILES += \
+    vendor/motorola/sholest/proprietary/app/FMRadio.apk:/system/app/FMRadio.apk \
+    vendor/motorola/sholest/proprietary/bin/fmradioserver:/system/bin/fmradioserver \
+    vendor/motorola/sholest/proprietary/etc/fm_rx_init_1273.2.bts:/system/etc/fm_rx_init_1273.2.bts \
+    vendor/motorola/sholest/proprietary/etc/fmc_init_1273.2.bts:/system/etc/fmc_init_1273.2.bts \
+    vendor/motorola/sholest/proprietary/lib/libfmradio.so:/system/lib/libfmradio.so \
+    vendor/motorola/sholest/proprietary/lib/libfmradio_jni.so:/system/lib/libfmradio_jni.so \
+    vendor/motorola/sholest/proprietary/lib/libfmradiostackservice.so:/system/lib/libfmradiostackservice.so
+
 ifeq ($(SHOLEST_KOREAN_IME),true)
 PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/app/KoreanIME.apk:/system/app/KoreanIME.apk \
