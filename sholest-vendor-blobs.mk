@@ -83,7 +83,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/bin/init_prep_keypad.sh:/system/bin/init_prep_keypad.sh \
     vendor/motorola/sholest/proprietary/bin/bootanimation:/system/bin/bootanimation \
-    vendor/motorola/sholest/proprietary/bin/linker:/system/bin/linker \
     vendor/motorola/sholest/proprietary/bin/dnsmasq_mot:/system/bin/dnsmasq_mot \
     vendor/motorola/sholest/proprietary/bin/tcmd:/system/bin/tcmd \
     vendor/motorola/sholest/proprietary/bin/safe_reboot:/system/bin/safe_reboot \
