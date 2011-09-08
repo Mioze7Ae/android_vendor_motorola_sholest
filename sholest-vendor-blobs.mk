@@ -252,7 +252,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/sholest/proprietary/app/Mynet.apk:/system/app/Mynet.apk
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/sholest/proprietary/app/FMRadio.apk:/system/app/FMRadio.apk \
+    vendor/motorola/sholest/proprietary/app/FMRadio-fwals.apk:/system/app/FMRadio.apk \
     vendor/motorola/sholest/proprietary/bin/fmradioserver:/system/bin/fmradioserver \
     vendor/motorola/sholest/proprietary/etc/fm_rx_init_1273.2.bts:/system/etc/fm_rx_init_1273.2.bts \
     vendor/motorola/sholest/proprietary/etc/fmc_init_1273.2.bts:/system/etc/fmc_init_1273.2.bts \
